@@ -185,6 +185,7 @@ wget https://raw.githubusercontent.com/ophaant/vps-new/master/vpn.sh &&  chmod +
 # install fail2ban
 apt -y install fail2ban
 
+
 # Instal DDOS Flate
 if [ -d '/usr/local/ddos' ]; then
 	echo; echo; echo "Desinstale primero la versión anterior."
@@ -285,6 +286,13 @@ chmod +x ceklim
 chmod +x ram
 chmod +x renew
 chmod +x clear-log
+
+# install rainbow terminal
+apt install ruby -y
+wget https://github.com/busyloop/lolcat/archive/master.zip
+unzip master.zip
+cd lolcat-master/bin
+gem install lolcat
 
 # remove unnecessary files
 apt -y autoclean
