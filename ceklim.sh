@@ -17,5 +17,5 @@ echo " Skrip Usuario-El límite no se ha ejecutado"
 fi
 echo " ";
 echo "===========================================";
-echo "By Karlos Geek";
+echo "By PT. Inovasi Bakti Nusantara";
 echo " ";

@@ -506,22 +506,22 @@ systemctl start v2ray@trojan.service
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O addws "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/addws.sh"
-wget -O addvless "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/addvless.sh"
-wget -O addtr "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/addtr.sh"
-wget -O delws "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/delws.sh"
-wget -O delvless "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/delvless.sh"
-wget -O deltr "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/deltr.sh"
-wget -O cekws "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cekws.sh"
-wget -O cekvless "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cekvless.sh"
-wget -O cektr "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cektr.sh"
-wget -O renewws "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/renewws.sh"
-wget -O renewvless "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/renewvless.sh"
-wget -O renewtr "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/renewtr.sh"
-wget -O xp-ws "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/xp-ws.sh"
-wget -O xp-tr "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/xp-tr.sh"
-wget -O xp-vless "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/xp-vless.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cert.sh"
+wget -O addws "https://raw.githubusercontent.com/ophaant/vps-new/master/addws.sh"
+wget -O addvless "https://raw.githubusercontent.com/ophaant/vps-new/master/addvless.sh"
+wget -O addtr "https://raw.githubusercontent.com/ophaant/vps-new/master/addtr.sh"
+wget -O delws "https://raw.githubusercontent.com/ophaant/vps-new/master/delws.sh"
+wget -O delvless "https://raw.githubusercontent.com/ophaant/vps-new/master/delvless.sh"
+wget -O deltr "https://raw.githubusercontent.com/ophaant/vps-new/master/deltr.sh"
+wget -O cekws "https://raw.githubusercontent.com/ophaant/vps-new/master/cekws.sh"
+wget -O cekvless "https://raw.githubusercontent.com/ophaant/vps-new/master/cekvless.sh"
+wget -O cektr "https://raw.githubusercontent.com/ophaant/vps-new/master/cektr.sh"
+wget -O renewws "https://raw.githubusercontent.com/ophaant/vps-new/master/renewws.sh"
+wget -O renewvless "https://raw.githubusercontent.com/ophaant/vps-new/master/renewvless.sh"
+wget -O renewtr "https://raw.githubusercontent.com/ophaant/vps-new/master/renewtr.sh"
+wget -O xp-ws "https://raw.githubusercontent.com/ophaant/vps-new/master/xp-ws.sh"
+wget -O xp-tr "https://raw.githubusercontent.com/ophaant/vps-new/master/xp-tr.sh"
+wget -O xp-vless "https://raw.githubusercontent.com/ophaant/vps-new/master/xp-vless.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/ophaant/vps-new/master/cert.sh"
 chmod +x addws
 chmod +x addvless
 chmod +x addtr

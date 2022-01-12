@@ -2,19 +2,19 @@
 # ===========================================
 # | AUTOSCRIPT FOR INSTALLATION SSH AND VPN |
 # ===========================================
-# | Owner : Administrador KARLOS GEEK    |
+# | Owner : Administrador PT. Inovasi Bakti Nusantara    |
 # | Date Owned : 17/04/2020                 |
-# | Telegram : KARLOS GEEK                |
+# | Telegram : PT. Inovasi Bakti Nusantara                |
 # ===========================================
             
             echo ""
 
                if [ ! -f /usr/local/bin/deleteduser ]; then
-               echo "echo "Autoscript by Karlos Geek"" > /usr/local/bin/deleteduser
+               echo "echo "Autoscript by PT. Inovasi Bakti Nusantara"" > /usr/local/bin/deleteduser
                chmod +x /usr/local/bin/deleteduser
                fi
                hariini=`date +%d-%m-%Y`
-               echo "Autoscript by Karlos Geek"
+               echo "Autoscript by PT. Inovasi Bakti Nusantara"
                echo "Gracias por eliminar los USUARIOS EXPIRADOS"
                echo "--------------------------------------"
                cat /etc/shadow | cut -d: -f1,8 | sed /:$/d > /tmp/expirelist.txt

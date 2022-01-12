@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# By Karlos Geek
+# By PT. Inovasi Bakti Nusantara
 # ==================================================
 
 VPN_IPSEC_PSK='vpn'

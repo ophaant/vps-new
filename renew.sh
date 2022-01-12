@@ -1,10 +1,10 @@
 #!/bin/bash
-# Script by : Karlos Geek
+# Script by : PT. Inovasi Bakti Nusantara
 clear
 echo -e ""
 echo -e "======================================"
 echo -e ""
-echo -e "       AutoScriptVPS by Karlos Geek    "
+echo -e "       AutoScriptVPS by PT. Inovasi Bakti Nusantara    "
 echo -e ""
 echo -e "======================================"
 read -p "         Usuario       :  " User
@@ -24,7 +24,7 @@ clear
 echo -e ""
 echo -e "========================================"
 echo -e ""
-echo -e "    AutoScriptVPS by Karlos Geek         "
+echo -e "    AutoScriptVPS by PT. Inovasi Bakti Nusantara         "
 echo -e ""
 echo -e "    Usuario         :  $User"
 echo -e "    Days Added      :  $Days Dias"
@@ -36,7 +36,7 @@ clear
 echo -e ""
 echo -e "========================================"
 echo -e ""
-echo -e "      AutoScriptVPS by Karlos Geek       "
+echo -e "      AutoScriptVPS by PT. Inovasi Bakti Nusantara       "
 echo -e ""
 echo -e "        El Usuario no Existe           "
 echo -e ""

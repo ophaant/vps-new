@@ -89,11 +89,11 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/delwg.sh"
-wget -O cekwg "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cekwg.sh"
-wget -O xp-wg "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/xp-wg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/ophaant/vps-new/master/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/ophaant/vps-new/master/delwg.sh"
+wget -O cekwg "https://raw.githubusercontent.com/ophaant/vps-new/master/cekwg.sh"
+wget -O xp-wg "https://raw.githubusercontent.com/ophaant/vps-new/master/xp-wg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/ophaant/vps-new/master/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x cekwg

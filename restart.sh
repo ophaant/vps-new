@@ -4,7 +4,7 @@ clear
 echo -e ""
 echo -e "======================================"
 echo -e ""
-echo -e "    AutoScriptVPS by Karlos Geek      "
+echo -e "    AutoScriptVPS by PT. Inovasi Bakti Nusantara      "
 echo -e ""
 echo -e "    [1] Restart All Services"
 echo -e "    [2] Restart OpenSSH"

@@ -62,5 +62,5 @@ listClients(){
 }
 listClients
 echo "-------------------------------";
-echo -e "By Karlos Geek"
+echo -e "By PT. Inovasi Bakti Nusantara"
 

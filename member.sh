@@ -16,4 +16,4 @@ NUMERO="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)
 echo "-------------------------------"
 echo "Numero de cuentas: $NUMERO de Usuario"
 echo "-------------------------------"
-echo -e "by Karlos Geek"
+echo -e "by PT. Inovasi Bakti Nusantara"

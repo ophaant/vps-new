@@ -1,5 +1,5 @@
 #!/bin/bash
-#shadowsocks-libev obfs install by Karlos Geek
+#shadowsocks-libev obfs install by PT. Inovasi Bakti Nusantara
 source /etc/os-release
 OS=$ID
 ver=$VERSION_ID
@@ -90,11 +90,11 @@ ip6tables -I INPUT -m state --state NEW -m udp -p udp --dport 2443:3543 -j ACCEP
 iptables-save > /etc/iptables.up.rules
 ip6tables-save > /etc/ip6tables.up.rules
 cd /usr/bin
-wget -O addss "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/addss.sh"
-wget -O delss "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/delss.sh"
-wget -O cekss "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/cekss.sh"
-wget -O xp-ss "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/xp-ss.sh"
-wget -O renewss "https://raw.githubusercontent.com/Karl0sGeek/AutoScriptSSH/main/renewss.sh"
+wget -O addss "https://raw.githubusercontent.com/ophaant/vps-new/master/addss.sh"
+wget -O delss "https://raw.githubusercontent.com/ophaant/vps-new/master/delss.sh"
+wget -O cekss "https://raw.githubusercontent.com/ophaant/vps-new/master/cekss.sh"
+wget -O xp-ss "https://raw.githubusercontent.com/ophaant/vps-new/master/xp-ss.sh"
+wget -O renewss "https://raw.githubusercontent.com/ophaant/vps-new/master/renewss.sh"
 chmod +x addss
 chmod +x delss
 chmod +x cekss

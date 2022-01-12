@@ -1,5 +1,5 @@
 #!/bin/bash
-#Optimization Speed By Karlos Geek
+#Optimization Speed By PT. Inovasi Bakti Nusantara
 Add_To_New_Line(){
 	if [ "$(tail -n1 $1 | wc -l)" == "0"  ];then
 		echo "" >> "$1"
